@@ -1,0 +1,7 @@
+<settings>
+        <fbuser>insert-your-fritzbox-username-here</fbuser>
+        <fbpwd>insert-your-fritzbox-password-here</fbpwd>
+        <fburl>fritz.box</fburl>
+        <fbport>49000</fbport>
+        <debug>False</debug>
+</settings>
