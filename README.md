@@ -15,7 +15,7 @@ in order to be able to switch WLAN on/off from any of the connected telephones.
 The Fritz!BOX does not have the ability to create nice dialplans and lacks lots of other cool telephony features.
 
 
-###### Depencencies:
+###### Dependencies:
 * Boost library is used for XML parsing
 * CURL library is used for connecting to Fritz!BOX using HTTP/SOAP
 * SSL library is used for calculating md5 hash
