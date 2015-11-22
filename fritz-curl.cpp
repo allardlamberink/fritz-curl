@@ -171,11 +171,14 @@ int main(int argc, char* argv[]) {
 				break;
 		}
 
+		const string runningpath = argv[0];
+		const string settingsfullpath = runningpath.substr(0,runningpath.find_last_of("/")) + "/settings.xml";
+
 		string settingsstr = "";
 		/* read settings file */
 		try
 	        {
-			readfile("settings.xml", settingsstr);
+			readfile(settingsfullpath, settingsstr);
 		}
 		catch (std::exception &e)
 		{
